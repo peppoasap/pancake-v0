@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/pancake-v0.esm.js"></script>
+    <script nomodule src="/build/pancake-v0.js"></script>
+  </head>
+  <body class="p-5 flex flex-col gap-5">
+    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+
+    <div class="flex flex-row gap-5">
+      <pnk-button>Hello World</pnk-button>
+      <pnk-button type="secondary">Hello World</pnk-button>
+      <pnk-button type="text">Hello World</pnk-button>
+    </div>
+
+    <div class="flex flex-row gap-5">
+      <pnk-button disabled>Hello World</pnk-button>
+      <pnk-button disabled type="secondary">Hello World</pnk-button>
+      <pnk-button disabled type="text">Hello World</pnk-button>
+    </div>
+  </body>
+</html>
